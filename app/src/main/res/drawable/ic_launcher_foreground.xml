@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Chip Outer Ring / Glow -->
+    <path
+        android:pathData="M38,38h32v32h-32z"
+        android:fillColor="#06B6D4" />
+    <path
+        android:pathData="M40,40h28v28h-28z"
+        android:fillColor="#0284C7" />
+    <!-- CPU Core Pins -->
+    <path
+        android:pathData="M44,30v8M54,30v8M64,30v8 M44,70v8M54,70v8M64,70v8 M30,44h8M30,54h8M30,64h8 M70,44h8M70,54h8M70,64h8"
+        android:strokeWidth="2.5"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+    <!-- AI Brain Circuit Symbol in Center -->
+    <path
+        android:pathData="M49,49m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0 M59,49m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0 M54,59m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M49,49L54,59L59,49Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#E0F2FE" />
+</vector>

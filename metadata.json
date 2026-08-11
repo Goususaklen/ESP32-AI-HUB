@@ -1,0 +1,6 @@
+{
+  "name": "ESP32 AI Hub",
+  "description": "AI-powered ESP32-S3 IoT control center with BLE auto-connect, sensor dashboard, AI assistant, and voice controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
