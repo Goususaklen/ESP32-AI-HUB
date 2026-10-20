@@ -1,0 +1,13 @@
+[Unit]
+Description=RoadLens AI agent
+After=network-online.target gpsd.service
+
+[Service]
+User=pi
+EnvironmentFile=/home/pi/roadlens.env
+ExecStart=/usr/bin/python3 /home/pi/roadlens_agent.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
